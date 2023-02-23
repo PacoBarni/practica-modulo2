@@ -1,0 +1,21 @@
+section {
+    display: block;
+    text-align: justify;
+  }
+
+  h2 {
+    margin-left: 8px;
+  }
+
+  h3 {
+    margin-left: 8px;
+  }
+
+  #flex {
+    flex-basis: 3px;
+    flex-direction: row;
+    flex-flow: row-reverse;
+    flex-wrap: nowrap;
+    flex-shrink: unset;
+  }
+  

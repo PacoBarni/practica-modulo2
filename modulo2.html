@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Módulo 2</title>
+    <link rel="stylesheet" href="modulo2.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
+    <script src="modulo2.js"></script>
+<style>
+     * {
+            box-sizing: border-box;
+            font-family: 'Montserrat', sans-serif;
+        }
+      h1.main-header-brand {
+            display:inline-block;
+            color: #0e4f1f; 
+            text-decoration: none; 
+            font-weight: bold; 
+            font-size: 22px;
+        }
+    li.main-nav-item {
+            display:inline-block;
+            margin: 1px; 
+            padding: 13px;
+            border: 3px solid rgb(19, 13, 13);
+            background-color: #64fd8d;
+        }
+        ul.main-nav-items {
+            display:inline-block;
+            margin: 0;
+            padding: 0; 
+            list-style: none;
+        }
+        nav.main-nav {
+            display:inline-block;
+            width: calc(100% - 80px);
+            text-align: right;
+            vertical-align:middle;
+        }
+</style>
+</head>
+<body>
+    <header>
+        <div>
+          <h1 class="h1.main-header-brand">Práctica Módulo 2</h1>
+        </div>
+        <nav>
+            <nav class="main-nav">
+                <ul class="main-nav-items">
+                    <li class="main-nav-item">Vivan</li>
+                    
+                    <li class="main-nav-item">Los</li>
+                    
+                    <li class="main-nav-item">Exámenes</li>
+                    
+                    </ul>
+            </nav>
+        </nav>
+    </header>    
+    <aside>
+        <h2>Epcot Center</h2>
+        <p style="text-align: justify;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas praesentium ducimus quibusdam sint itaque, fuga reprehenderit! Iste illum corporis eum minima sunt earum placeat libero, soluta veniam mollitia a amet?</p>       
+        <p id="flex">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque iure eaque beatae enim facere repellat ex laudantium adipisci deserunt delectus? Commodi, sit. Iusto tenetur alias beatae sed maxime nulla fugiat.</p>     
+    </aside>
+    <section>
+        <h3>WWF History</h3>
+        <p style="text-align: justify;">The World Wide Fund for Nature (WWF) is an international organization working on issues regarding the conservation, research and restoration of the environment, formerly named the World Wildlife Fund. WWF was founded in 1961.</p>
+        </section>        
+        <section>
+        <h3>WWF's Symbol</h3>
+        <p style="text-align: justify;">The Panda has become the symbol of WWF. The well-known panda logo of WWF originated from a panda named Chi Chi that was transferred from the Beijing Zoo to the London Zoo in the same year of the establishment of WWF.</p>
+        </section>
+    <article>
+        <h3>Video - Marc Esteve</h3>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/ZVnHruC-2UE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <br>
+        <h3>Google Maps - Localización Curso</h3>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2993.5365396310604!2d2.1365580502888157!3d41.384153004058064!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4987c34a1f2c5%3A0xe0acefdd7f68a4b3!2sCarrer%20de%20Caballero%2C%2076%2C%2008029%20Barcelona!5e0!3m2!1ses!2ses!4v1677140610355!5m2!1ses!2ses" width="500" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+       <p>
+        <br>
+        <audio controls="controls">
+        <source src="docs/cancion1.mp3" type="audio/mpeg">
+        </audio> 
+    </p>    
+    </article>
+    <br>
+        <p id="js"></p>
+        <script>
+        document.getElementById("js").innerHTML = "hola";
+        </script>
+    <footer>
+        <p>Autor: Sin Nombre</p>
+        <p><a href="mailto:hege@example.com">sinnombre@gmail.com</a></p>
+      </footer>
+</body>
+</html>
