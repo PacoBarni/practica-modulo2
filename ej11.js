@@ -1,12 +1,13 @@
+//Ejercicio 11
+
 let colores = ["yellow", "red", "blue"];
-let colores3 = [];
+let colores2 = [];
 
 console.log(colores);
-console.log(colores3);
+console.log(colores2);
 
 for (let color of colores) {
-    colores3.push(color);
-    console.log(colores3);
+    colores2.push(color);
+    console.log(colores2);
 }
-
-console.log(colores3);
+console.log(colores2);

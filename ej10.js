@@ -1,3 +1,5 @@
+//Ejercicio 10
+
 const palindromo = "sometemos";
 let inverso = "";
 
@@ -10,7 +12,7 @@ for (let i = palindromo.length-1; i >=0; i--) {
 console.log(inverso);
 
 if (palindromo == inverso) {
-    console.log("La variable palindromo: " + palindromo + " es un palindromo");
+    console.log("La palabra sometemos: " + palindromo + " es un palindromo");
 } else {
-    console.log("La variable palindromo: " + palindromo + " NO es un palindromo");
+    console.log("La palabra sometemos: " + palindromo + " no es un palindromo");
 }
